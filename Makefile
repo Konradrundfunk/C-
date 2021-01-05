@@ -169,6 +169,33 @@ source/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
+source/newmain.o: source/newmain.cpp.o
+
+.PHONY : source/newmain.o
+
+# target to build an object file
+source/newmain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/source/newmain.cpp.o
+.PHONY : source/newmain.cpp.o
+
+source/newmain.i: source/newmain.cpp.i
+
+.PHONY : source/newmain.i
+
+# target to preprocess a source file
+source/newmain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/source/newmain.cpp.i
+.PHONY : source/newmain.cpp.i
+
+source/newmain.s: source/newmain.cpp.s
+
+.PHONY : source/newmain.s
+
+# target to generate assembly for a file
+source/newmain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/source/newmain.cpp.s
+.PHONY : source/newmain.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -181,6 +208,9 @@ help:
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
+	@echo "... source/newmain.o"
+	@echo "... source/newmain.i"
+	@echo "... source/newmain.s"
 .PHONY : help
 
 
