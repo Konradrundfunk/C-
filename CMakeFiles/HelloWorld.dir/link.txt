@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/HelloWorld.dir/source/main.cpp.o CMakeFiles/HelloWorld.dir/source/newmain.cpp.o -o HelloWorld 
