@@ -2,12 +2,13 @@
 #include <iostream>
 
 int main(){
+    /**
     Log log;
-    log.SetLevel(log.LogLevelWarning);
+    log.SetLevel(log.LogLevelInfo);
     log.Warn("Hello");
     log.Info("Hello info");
     log.Error("lol");
-    /**
+    
      * Classtesting with Class test
     Test test;
     test.x = 10;
