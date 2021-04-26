@@ -6,3 +6,4 @@
 #include "print.cpp"
 #include "pointers.cpp"
 #include "file.cpp"
+#include "class.cpp"

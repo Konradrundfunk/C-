@@ -2,8 +2,20 @@
 #include <iostream>
 
 int main(){
-    
-    
+    Log log;
+    log.SetLevel(log.LogLevelWarning);
+    log.Warn("Hello");
+    log.Info("Hello info");
+    log.Error("lol");
+    /**
+     * Classtesting with Class test
+    Test test;
+    test.x = 10;
+    test.y = 12;
+    test.speed= 20;
+    test.Move(10, 20);
+    std::cout << test.x << std::endl;
+    **/
     //pointers();
     //file();
     /**
