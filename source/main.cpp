@@ -1,25 +1,35 @@
 #include <iostream>
 #include "test.h"
 
+bool test1 = 1;
+
 void firsttryies()
 {
-    iftest(34,34,12);
-    bool testing = 67 * 89 == 21;
-    if(testing)
-    {
-        std::cout << "true" << std::endl;
-    }
-    else
-    {
-        std::cout << "false again" << std::endl;
-    }
-    calc_log(34, 4234);
-    test();
-    int sum = calc(3,54);
     std::cout << "Hello World" << std::endl;
-    std::cout << sum;
+}
+
+void functions1()
+{
+    example2(test1);
+    logs("lolol", 2);
+    lololol(123, 32, 32);
+}
+void functions2(int num1)
+    {
+        log("first");
+        control1(num1);
+        log("second");        
+        control2(num1);
+        log("third");
+        std::cout << control3(num1) << std::endl;
+        
+    }
+void functions3()
+{
+    pointer1();
+
 }
 int main(){
-    firsttryies();
-
+    functions3();
+    //functions2(12);
 }

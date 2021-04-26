@@ -1,5 +1,10 @@
 #!/bin/sh
 
-make 
+#make 
 
-./HelloWorld
+#./HelloWorld
+
+cd source
+g++ main.cpp -o Main
+./Main
+cd ..
