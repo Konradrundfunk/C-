@@ -33,6 +33,17 @@
 
 # Build
 /build
+.cache
 
 # Vscode
-.Vscode
+/.Vscode
+ 
+# Cpp dependecies
+ 
+
+# Cmake 
+
+/CMakeFiles
+cmake_install.cmake
+CMakeCache.txt
+CMakeLists.txt
